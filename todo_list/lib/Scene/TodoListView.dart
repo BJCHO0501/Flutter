@@ -22,7 +22,14 @@ class TodoListView extends StatelessWidget {
           return SizedBox(height: 10);
         },
         padding: EdgeInsets.all(10),
-      )
+      ),
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.blue,
+        onPressed: (){
+
+        },
+        child: Icon(Icons.add),
+      ),
     );
   }
 }
