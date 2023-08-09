@@ -50,3 +50,7 @@ Container({
 - 다음에는 컨테이너를 커스텀 하는 **decoration**에 대해 정리해 봐야겠다.
 
 ## 참고 💡
+
+[[flutter\] 20강 | 컨테이너 위젯 (container widget) 되짚어 보기.](https://rldd.tistory.com/173)
+
+[Layouts in Flutter](https://docs.flutter.dev/ui/layout)
