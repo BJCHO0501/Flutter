@@ -17,7 +17,15 @@ class Container_ex extends StatelessWidget {
         body: Container(
             width: 100, // 너비 지정
             height: 100, // 높이 지정
-            color: Colors.black, // 색 지정
+            decoration: BoxDecoration(
+              color: Colors.black,
+              border: Border.all(
+                color: Colors.red,
+                style: BorderStyle.solid,
+                width: 5,
+              ),
+              shape: BoxShape.circle
+            ),
             child: const Text("응애", style: TextStyle(color: Colors.white)),
           ),
         ),
